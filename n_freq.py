@@ -46,5 +46,5 @@ for i in xrange(lower, n-1):
 
 print "N Total: ", n_tot
 print "P Total: ", p_tot
-print "N_freq: ", float(n_tot) / n
-print "P_freq: ", float(p_tot) / n
+print "N_freq: ", float(n_tot) / (n-1)
+print "P_freq: ", float(p_tot) / (n-1)
