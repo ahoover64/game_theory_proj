@@ -77,7 +77,7 @@ star_2_tot = 0
 star_3_tot = 0
 star_4_tot = 0
 other_tot = 0
-for i in xrange(1, n-1):
+for i in xrange(0, n-1):
     if game_type[i] is '0':
         otot = otot + 1
     if game_type[i] is '*':
